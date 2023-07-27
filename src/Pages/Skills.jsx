@@ -10,18 +10,20 @@ import next_logo from "../images/next_logo.png";
 import typescript_logo from "../images/typescript_logo.png";
 import redux_logo from "../images/redux_logo.png";
 import mongobd_logo from "../images/mongobd_logo.png";
+import express from "../images/express.jpg";
 
 const Skills = () => {
   let arr = [
     { src: javascript_logo, name: "Javascript" },
     { src: html_logo, name: "HTML" },
-    { src: git_logo, name: "Git" },
+    // { src: git_logo, name: "Git" },
     { src: react_logo, name: "React JS" },
     { src: node_logo, name: "Node" },
     { src: next_logo, name: "Next JS" },
     { src: redux_logo, name: "Redux" },
     { src: typescript_logo, name: "TypeScript" },
     { src: mongobd_logo, name: "Mongo DB" },
+    { src: express, name: "Express js" },
   ];
   return (
     <Box id="skills">

@@ -20,7 +20,19 @@ import techtrove_1 from "../images/techtrove_1.png";
 import techtrove_2 from "../images/techtrove_2.png";
 import techtrove_3 from "../images/techtrove_3.png";
 import techtrove_4 from "../images/techtrove_4.png";
-
+//
+//justserve full stack project
+//
+import justserve_logo_1 from "../images/justserve_logo_1.png";
+import justserve_logo_2 from "../images/justserve_logo_2.png";
+import justserve_logo_3 from "../images/justserve_logo_3.png";
+import justserve_logo_4 from "../images/justserve_logo_4.png";
+import justserve_logo_5 from "../images/justserve_logo_5.png";
+import justserve_logo_6 from "../images/justserve_logo_6.png";
+import justserve_logo_8 from "../images/just_serve_logo_8.png";
+import justserve_logo_9 from "../images/justserve_logo_9.png";
+//
+//
 const Projects = () => {
   const HealthPrime = [
     healthPrime_1,
@@ -28,6 +40,17 @@ const Projects = () => {
     healthPrime_3,
     healthPrime_4,
     healthPrime_5,
+  ];
+  const Justserve = [
+    justserve_logo_9,
+    justserve_logo_8,
+    justserve_logo_6,
+    justserve_logo_5,
+    justserve_logo_4,
+    justserve_logo_4,
+    justserve_logo_3,
+    justserve_logo_2,
+    justserve_logo_1,
   ];
   const Busykid = [busykid_1, busykid_3, busykid_4];
   const Techtrove = [techtrove_1, techtrove_2, techtrove_3, techtrove_4];
@@ -54,6 +77,34 @@ const Projects = () => {
       <Center>
         <Heading mb={"40px"}>Projects</Heading>
       </Center>
+
+      <ProjectCards
+        direction={"row-reverse"}
+        deployedLink={"https://justserve-anshkathpal.vercel.app/"}
+        image={Justserve}
+        title={"Just Serve"}
+        subTitle={"Volunteer opportunities"}
+        GithubLink={"https://github.com/AnshKathpal/dizzy-vase-3091"}
+        features={[
+          "jsonweb tokens authentication",
+          "Sign up or log in to watch  your volunteer opportunities",
+          "Each Volunteer opportunity has a dedicated page with a detailed information ",
+          "View Volunteer oppurtinites related to their location work mode type and by key words",
+          "Sort, search, and filter to easily find the opportunities you're looking for",
+          "Admin side with complete information of volunteer opportunities",
+        ]}
+        description={
+          "Volunteer Search: Discover diverse opportunities to contribute to meaningful causes. Find and join volunteer projects matching your skills and interests. Empower change together."
+        }
+        techStack={[
+          "React.js",
+          "Chakra UI",
+          "Redux",
+          "Express js",
+          "Node js",
+          "Mongo DB",
+        ]}
+      />
 
       <ProjectCards
         direction={"row-reverse"}

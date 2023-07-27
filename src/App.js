@@ -8,6 +8,7 @@ import Contact from "./Pages/Contact";
 import { Box, useColorMode } from "@chakra-ui/react";
 import GithubStats from "./Pages/GithubStats";
 import { BsArrowUpCircleFill } from "react-icons/bs";
+import Tools from "./Pages/Tools";
 
 function App() {
   const { colorMode } = useColorMode();
@@ -47,6 +48,7 @@ function App() {
       <Home />
       <About />
       <Skills />
+      <Tools />
       <Projects />
       <GithubStats />
       <Contact />
