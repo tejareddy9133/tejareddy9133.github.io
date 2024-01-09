@@ -101,7 +101,7 @@ function Home() {
               "2xl": "55%",
             }}
           >
-            Aspiring Full Stack Web Developer who loves solving problems and
+            Full Stack Web Developer & Mentor who loves solving problems and
             building projects. I am equipped with a variety of technologies and
             tools to help me build the best possible product.
           </Text>
