@@ -17,7 +17,7 @@ const GithubStats = () => {
           <GitHubCalendar
             className="react-activity-calendar"
             style={{ margin: "auto", width: "80%" }}
-            username="Varun8177"
+            username="tejareddy9133"
             blockSize={20}
             hideTotalCount
           >
